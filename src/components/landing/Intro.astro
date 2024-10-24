@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+import Avatar from "../../images/sergio villanueva ux.jpeg";
+---
+
+<div
+  class="lg:row-span-2 bg-zinc-100 dark:bg-zinc-900 shadow-xl dark:shadow-dark rounded-3xl p-8 2xl:p-12"
+>
+  <div class="relative flex items-center gap-x-4">
+    <Image src={Avatar} alt="#_" class="size-10 2xl:size-16 rounded-full" />
+    <div class="text-sm 2xl:text-xl leading-6">
+      <p class="font-semibold text-zinc-950 dark:text-zinc-100">
+        <a href="#">
+          <span class="absolute inset-0"></span>
+          Sergio Villanueva
+        </a>
+      </p>
+      <p class="text-zinc-500 dark:text-zinc-400">
+        UX Specialist &amp; Data Visualization
+      </p>
+    </div>
+  </div>
+  <p
+    class="text-3xl mt-6 2xl:text-7xl text-balance font-semibold lg:text-4xl text-zinc-950 dark:text-zinc-100"
+  >
+    Aloha!
+  </p>
+  <p class="text-xl text-zinc-500 dark:text-zinc-300 2xl:text-3xl mt-6">
+    Soy UX Designer con experiencia dise&#241;ando soluciones para plataformas de turismo, financieras y datos. 
+    Me especializo en Figma para crear interfaces intuitivas y funcionales
+    <br />
+    <br />
+    M&#225;s all&#225; de las pantallas disfruto hacer recorridos fotogr&#225;ficos para documentar mi ciudad
+    
+  </p>
+</div>
